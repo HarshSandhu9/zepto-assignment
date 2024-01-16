@@ -1,0 +1,79 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 100px;
+    gap: 26px
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+.search {
+    width: auto;
+    border: none;
+    outline: none;
+    
+}
+
+
+.list {
+    box-shadow: 5px 4px 12px 6px rgba(39, 39, 39, 0.275);
+    border-radius: 10px;
+    max-height: 350px ;
+    padding: 0px ;
+    overflow: auto;
+    width: max-content;
+    cursor: pointer;
+    position: absolute;
+}
+
+.user {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.user li {
+    list-style: none;
+}
+
+.user:hover {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.displayUsers {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.selectedUsers {
+    display: flex;
+    gap: 5px;
+    background-color: rgb(198, 198, 198);
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.crossIcon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchElements {
+    display: flex;
+}
+
+.line {
+    height: 1px;
+    background-color: blue;
+}
+
+.searchBar {
+    padding: 0px 50px;
+}
